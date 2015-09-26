@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\Eclipse Projects\\Mathglobes new\\MathGlobes\\src\\com\\android\\vending\\billing\\IInAppBillingService.aidl
+ * Original file: E:\\GitHub\\MathGlobes\\Mathglobes new\\MathGlobes\\src\\com\\android\\vending\\billing\\IInAppBillingService.aidl
  */
 package com.android.vending.billing;
 /**

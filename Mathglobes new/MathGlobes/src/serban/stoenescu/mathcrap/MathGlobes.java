@@ -162,6 +162,10 @@ public class MathGlobes extends Activity
                 public void onConsumeFinished(Purchase purchase, IabResult result) {
                     Log.d("BILLING", "Consumption finished. Purchase: " + purchase + ", result: " + result);
 
+                    unlocked = true;
+                    onExitLocked();
+                    
+                    
                     // if we were disposed of in the meantime, quit.
                     if (mHelper == null) return;
 
@@ -171,8 +175,7 @@ public class MathGlobes extends Activity
                     if (result.isSuccess()) {
                         // successfully consumed, so we apply the effects of the item in our
                         // game world's logic, which in our case means filling the gas tank a bit
-                    	unlocked = true;
-                        Log.d("BILLING", "Consumption successful. Provisioning.");
+                    	Log.d("BILLING", "Consumption successful. Provisioning.");
                     }
                     else {
                     }
