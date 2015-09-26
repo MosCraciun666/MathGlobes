@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="hello">Math Globes by Serban Stoenescu sherbanmobile.appspot.com</string>
+    <string name="newgamestring">Start from level 1 </string>
+    <string name="facebook">Facebook</string>
+    <string name="newgamefromlevelstring">Start level recommended for you </string>
+    <string name="facebookstring">Share</string>
+    <string name="helpstring">How to play</string>
+    <string name="app_string">How to play</string>
+    <string name="errorpurchasing">Error purchasing</string>
+    <string name="app_name">MathGlobes</string>
+    <string name="play_expert">Play Expert (5x5)</string>
+    <string name="locked">Currently unavailable</string>
+    <string name="scorestring">Score </string>
+    <string name="resetstring">Reset progress </string>
+    <string name="washighscorestring">New high score! </string>
+    <string name="highscorestring">High score: </string>
+    <string name="lastscorestring">Last score: </string>
+    <string name="resetquestion">Are you sure you want to reset your progress?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="levelstring">Level </string>
+     <string-array name="menu_array">
+        <item>Start level 1</item>
+        <item>Start level recommended for you </item>
+        <item>Share highscore </item>
+        <item>How to play</item>
+        <!-- Resume ?-->
+        <!-- Reset ? -->
+    </string-array>
+
+    <string name="scroll">Scroll down to see the whole tutorial</string>
+    <string name="help1">
+        In this game, you see a bunch of circles with mathematical expressions.
+    </string>
+    <string name="help2">
+        Find two circles that are equal, like in the example below:
+    </string>
+    <string name="help3">
+        And then move one of them with your finger over the other one.
+        If they are equal they will disappear.
+    </string>
+    <string name="help4">
+        Be quick! The white bar on the right shows you how much time you have until new circles appear.
+    </string>
+    <string name="help5">
+        When you reach the line at the bottom, the game is over.
+    </string>
+    <string name="help6">Press this button to add a new row of circles</string>
+    <string name="help7">Press these buttons to pause/continue the game</string>
+    <string name="app_id">649681701820213</string>
+</resources>

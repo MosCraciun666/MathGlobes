@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/textview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/scroll"
+    />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help1"
+    />
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/shit" />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help2"
+    />
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:src="@drawable/shit2" />
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help3"
+
+    />
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:src="@drawable/_help2" />
+ 
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help4"
+
+    />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help5"
+
+    />
+
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:src="@drawable/bottom_line" />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help6"
+    />
+
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:src="@drawable/addbutton" />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help7"
+    />
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:src="@drawable/_pause" />
+<ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:src="@drawable/resume" />
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/textviewmain"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:gravity="center"
+    android:textSize="18dp"
+    />
+ <Button
+     android:id="@+id/newgame"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:drawableLeft="@drawable/icon_small"
+     />
+ <Button
+     android:id="@+id/newgamefromlevel"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:drawableLeft="@drawable/icon_small"
+     />
+     
+ <Button
+     android:id="@+id/newgameexpert"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:drawableLeft="@drawable/icon_small"
+     />
+ <Button
+     android:id="@+id/help"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:drawableLeft="@drawable/question"
+     />
+ <Button
+     android:id="@+id/reset"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:drawableLeft="@drawable/reset"
+     android:text="@string/resetstring"
+     />
+</LinearLayout>
+</ScrollView>

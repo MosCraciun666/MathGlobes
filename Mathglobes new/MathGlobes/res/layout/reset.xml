@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/textview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/resetquestion"
+    android:gravity="center"
+    />
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <Button
+        android:id="@+id/yes_reset_button"
+        android:text="@string/yes"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    <Button
+        android:id="@+id/no_reset_button"
+        android:text="@string/no"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/yes_reset_button"
+        />
+</RelativeLayout>
+</LinearLayout>

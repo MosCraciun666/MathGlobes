@@ -1,0 +1,16 @@
+Bugs:
+ - performance not updated: dumbass 1 gets added
+ - high score not updated?
+ - views not updated?
+ 
+Design defects:
+ - duplicated code that contains MathGlobes.gameOverWithLevel(MyCustomDrawable.getLevel());
+ 
+Changes:
+ - use clicks OR drag and drop
+ - make the menu look cool
+ - make news headline from internet text file
+ - make achievements
+ - make unlockable items
+ - make leaderboards
+ - add sound?
